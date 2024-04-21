@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizlet</string>
+    <string name="procced">Начать</string>
+    <string name="date">Дата рождения</string>
+    <string name="enter_date_of_birth">Введите дату рождения</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back">Назад</string>
+    <string name="send">Отправить</string>
+    <string name="again">Начать заново</string>
+    <string name="result">Результаты:</string>
+
+    <string name="red">#D92700</string>
+    <string name="blue">#00B1D9</string>
+
+    <string name="not_answer">Вы не ответили на вопрос</string>
+
+    <string-array name="month">
+        <item>Января</item>
+        <item>Февраля</item>
+        <item>Марта</item>
+        <item>Апреля</item>
+        <item>Мая</item>
+        <item>Июня</item>
+        <item>Июля</item>
+        <item>Августа</item>
+        <item>Сентября</item>
+        <item>Октября</item>
+        <item>Ноября</item>
+        <item>Декабря</item>
+    </string-array>
+</resources>

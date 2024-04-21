@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.main.QuizFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_questionOne"
+            style="@style/Widget.MaterialComponents.TextView.Question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox1_answerOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_questionOne" />
+
+        <TextView
+            android:id="@+id/text1_answerOne"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox1_answerOne"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox1_answerOne"
+            app:layout_constraintTop_toBottomOf="@id/text_questionOne"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox2_answerOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/checkBox1_answerOne" />
+
+        <TextView
+            android:id="@+id/text2_answerOne"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox2_answerOne"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox2_answerOne"
+            app:layout_constraintTop_toTopOf="@id/checkBox2_answerOne"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox3_answerOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/checkBox2_answerOne" />
+
+        <TextView
+            android:id="@+id/text3_answerOne"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox3_answerOne"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox3_answerOne"
+            app:layout_constraintTop_toTopOf="@id/checkBox3_answerOne"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox4_answerOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/checkBox3_answerOne" />
+
+        <TextView
+            android:id="@+id/text4_answerOne"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox4_answerOne"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox4_answerOne"
+            app:layout_constraintTop_toTopOf="@id/checkBox4_answerOne"
+            tools:text="@tools:sample/lorem/random" />
+
+
+        <TextView
+            android:id="@+id/text_questionTwo"
+            style="@style/Widget.MaterialComponents.TextView.Question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text4_answerOne"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox1_answerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_questionTwo" />
+
+        <TextView
+            android:id="@+id/text1_answerTwo"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox1_answerTwo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox1_answerTwo"
+            app:layout_constraintTop_toTopOf="@id/checkBox1_answerTwo"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox2_answerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/checkBox1_answerTwo" />
+
+        <TextView
+            android:id="@+id/text2_answerTwo"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox2_answerTwo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox2_answerTwo"
+            app:layout_constraintTop_toTopOf="@id/checkBox2_answerTwo"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox3_answerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/checkBox2_answerTwo" />
+
+        <TextView
+            android:id="@+id/text3_answerTwo"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox3_answerTwo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox3_answerTwo"
+            app:layout_constraintTop_toTopOf="@id/checkBox3_answerTwo"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox4_answerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/checkBox3_answerTwo" />
+
+        <TextView
+            android:id="@+id/text4_answerTwo"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox4_answerTwo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox4_answerTwo"
+            app:layout_constraintTop_toTopOf="@id/checkBox4_answerTwo"
+            tools:text="@tools:sample/lorem/random" />
+
+
+        <TextView
+            android:id="@+id/text_questionThree"
+            style="@style/Widget.MaterialComponents.TextView.Question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text4_answerTwo"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox1_answerThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_questionThree" />
+
+        <TextView
+            android:id="@+id/text1_answerThree"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox1_answerThree"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox1_answerThree"
+            app:layout_constraintTop_toTopOf="@id/checkBox1_answerThree"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox2_answerThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/checkBox1_answerThree" />
+
+        <TextView
+            android:id="@+id/text2_answerThree"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox2_answerThree"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox2_answerThree"
+            app:layout_constraintTop_toTopOf="@id/checkBox2_answerThree"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox3_answerThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/checkBox2_answerThree" />
+
+        <TextView
+            android:id="@+id/text3_answerThree"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox3_answerThree"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox3_answerThree"
+            app:layout_constraintTop_toTopOf="@id/checkBox3_answerThree"
+            tools:text="@tools:sample/lorem/random" />
+
+        <CheckBox
+            android:id="@+id/checkBox4_answerThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/checkBox3_answerThree" />
+
+        <TextView
+            android:id="@+id/text4_answerThree"
+            style="@style/Widget.MaterialComponents.TextView.Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/checkBox4_answerThree"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox4_answerThree"
+            app:layout_constraintTop_toTopOf="@id/checkBox4_answerThree"
+            tools:text="@tools:sample/lorem/random" />
+
+        <Button
+            android:id="@+id/button_back"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Style"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="@string/back"
+            app:layout_constraintEnd_toStartOf="@id/button_send"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text4_answerThree" />
+
+        <Button
+            android:id="@+id/button_send"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Style"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="@string/send"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_back"
+            app:layout_constraintTop_toBottomOf="@id/text4_answerThree" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
